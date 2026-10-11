@@ -1,7 +1,10 @@
 {
-  "hw26": {
-    "from": "2026-10-26",
-    "to": "2026-11-09",
-    "off": false
+  "schema": 1,
+  "events": {
+    "hw26": {
+      "enabled": true,
+      "startLocalDate": "2026-10-26",
+      "lastLocalDate": "2026-11-08"
+    }
   }
 }
