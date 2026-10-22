@@ -21,10 +21,14 @@ h3{font-size:20px;font-weight:600;margin:28px 0 6px}
 .game img{width:112px;height:112px;border-radius:25px;flex:none}
 .game h3{margin:0 0 4px}
 .game p{margin:0;color:var(--soft)}
+.stores{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.stores a{display:inline-block;line-height:0}
+.stores img{height:44px;width:auto;border-radius:0}
+.stores img.gp{height:50px;margin:-3px -3px}
 .tag{display:inline-block;margin-top:10px;font-size:14px;font-weight:500;background:#E3EEDA;color:var(--ink);padding:4px 12px;border-radius:999px}
 .doc{background:var(--card);border-radius:24px;padding:8px 26px 26px;box-shadow:0 6px 0 var(--line);margin-bottom:28px}
 .doc p,.doc li{color:#34473A}
 .meta{color:var(--soft);font-size:15px}
 footer{padding:34px 0 44px;color:var(--soft);font-size:15px;text-align:center}
 footer a{margin:0 8px}
-@media (max-width:520px){.game{flex-direction:column;text-align:center}body{font-size:17px}}
+@media (max-width:520px){.game{flex-direction:column;text-align:center}.stores{justify-content:center}body{font-size:17px}}
